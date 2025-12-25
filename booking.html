@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="booking.css">
+  <title>Booking Details</title>
+  <script defer src="confirmation.js"></script>
+</head>
+<body>
+  <header class="header">
+    <h1>Book Your Ride</h1>
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="carlist.html">Back to Cars</a>
+    </nav>
+  </header>
+  <main class="main-content">
+    <form class="booking-form" id="bookingForm">
+      <label for="car">Selected Cars</label>
+
+      <input type="text" id="car" name="car" value="Bentley continental GT" readonly>
+
+      <label for="date">Pick-Up Date</label>
+      <input type="date" id="date" name="date" required>
+
+      <label for="time">Pick-Up Time</label>
+      <input type="time" id="time" name="time" required>
+
+      <label for="location">Pick-Up Location</label>
+      <input type="text" id="location" name="location" required>
+
+      <button type="submit" class="btn-orange">Confirm Booking</button>
+    </form>
+  </main>
+  <footer>
+    <p>© 2024 Lumina Luxe Rides. All rights reserved.</p>
+  </footer>
+</body>
+</html>

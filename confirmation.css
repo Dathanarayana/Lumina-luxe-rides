@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url('https://cdn.suwalls.com/wallpapers/cars/2014-silver-bmw-m6-gran-coupe-side-view-51757-1920x1200.jpg'); /* Replace with your image URL */
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+    background-repeat: repeat; 
+    margin-top: 20px;
+    padding-top: 0;
+}
+.confirmation {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .confirmation h2 {
+    font-size: 2rem;
+    color: #ff4500;
+    margin-bottom: 20px;
+  }
+  .confirmation p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  .btn-orange {
+    background-color: #ff4500;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+
+  }
+  .btn-orange:hover {
+    background-color: #e63900;
+  }
+  
